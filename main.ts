@@ -86,8 +86,13 @@ function main(): void {
   }
 
   // 2. Stage a clean copy: wipe any stale output first so nothing from an
-  // earlier run can leak into the dossier.
-  rmSync(outDir, { recursive: true, force: true });
+  // earlier run can leak into the dossier. Clear the output folder's
+  // contents, never the folder itself: in the grader the output folder is
+  // a mount point whose parent is read-only, so removing it fails.
+  mkdirSync(outDir, { recursive: true });
+  for (const entry of readdirSync(outDir)) {
+    rmSync(join(outDir, entry), { recursive: true, force: true });
+  }
   mkdirSync(join(outDir, 'screenshots'), { recursive: true });
   cpSync(appDir, join(outDir, 'app'), { recursive: true });
   cpSync(shotsDir, join(outDir, 'screenshots'), { recursive: true });
