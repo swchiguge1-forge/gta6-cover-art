@@ -4,11 +4,11 @@
 [![rank](https://make.fun/badge/gta6-cover-art-01/swchiguge1-forge/gta6-cover-art/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 [![reward](https://make.fun/badge/gta6-cover-art-01/swchiguge1-forge/gta6-cover-art/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 
-Neon Coast Cover Studio — a GTA-style cover maker that runs entirely
-offline in the browser. Pick your photos, choose one of four poster
-layouts (Quad Grid, Hero + Trio, Full Bleed, Tilted Snaps) and one of five
-Vice-City grades (Vice Sunset, Neon Nights, Golden Hour, Mono Noir, Palm
-Dusk), set the title, subtitle and badge, and export the cover as a PNG at
+Neon Coast Cover Studio — a GTA-style cover maker that runs fully offline
+in the browser. Drop in your photos, pick one of four poster layouts (Quad
+Grid, Hero + Trio, Full Bleed, Tilted Snaps) and one of five Vice-City
+grades (Vice Sunset, Neon Nights, Golden Hour, Mono Noir, Palm Dusk), set
+the title, subtitle and badge, then export the finished cover as a PNG at
 1080x1080, 1080x1350 or 1920x1080.
 
 ## Run it
